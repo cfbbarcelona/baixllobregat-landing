@@ -95,8 +95,30 @@ a {
 .header-club-name {
   font-size: 1rem;
   font-weight: 700;
-  color: var(--color-primary);
   letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.club-name-full {
+  color: #fff;
+}
+
+.club-name-short {
+  display: none;
+  color: #fff;
+}
+
+.club-name-region {
+  color: var(--color-primary);
+}
+
+@media (max-width: 600px) {
+  .club-name-full {
+    display: none;
+  }
+  .club-name-short {
+    display: inline;
+  }
 }
 
 .nav {
