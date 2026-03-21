@@ -277,6 +277,23 @@ a {
   margin-bottom: 3rem;
 }
 
+.section-more-info {
+  margin-top: 2.5rem;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}
+
+.section-more-info a {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.section-more-info a:hover {
+  text-decoration: underline;
+}
+
 .section-text-light {
   font-size: 1rem;
   font-weight: 300;
